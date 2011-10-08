@@ -1,0 +1,165 @@
+<div id="login_bar">
+#{if _arg}
+<a href="@{Secure.logout()}">Abmelden</a>
+#{/if}
+#{else}
+<a href="#" id="login-user">Anmelden</a> - <a href="#" id="create-user">Registrieren</a>
+
+<script type="text/javascript">
+	function updateTips( t ) {
+		tips = $( ".validateTips" );
+		tips
+			.text( t )
+			.addClass( "ui-state-highlight" );
+		setTimeout(function() {
+			tips.removeClass( "ui-state-highlight", 1500 );
+		}, 500 );
+	}
+	
+	$(function() {
+		
+		var username = $( "#name" ),
+			password = $( "#password" ),
+			allFields = $( [] ).add( name ).add( password );
+			
+
+		
+
+		function checkLength( o, n, min, max ) {
+			if ( o.val().length > max || o.val().length < min ) {
+				o.addClass( "ui-state-error" );
+				updateTips( n + " muss zwischen " +
+					min + " und " + max + " Zeichen lang sein." );
+				return false;
+			} else {
+				return true;
+			}
+		}
+
+		function checkRegexp( o, regexp, n ) {
+			if ( !( regexp.test( o.val() ) ) ) {
+				o.addClass( "ui-state-error" );
+				updateTips( n );
+				return false;
+			} else {
+				return true;
+			}
+		}
+
+		function login() {
+			var bValid = true;
+			allFields.removeClass( "ui-state-error" );
+
+			bValid = bValid && checkLength( username, "Der Benutzername", 3, 16 );
+
+			if ( bValid ) {
+				var registerAction = #{jsAction @Security.login() /}
+				$.ajax({
+					type:'POST',
+					url: registerAction(),
+					data: {username: username.val(), password: password.val()}
+				});
+			};
+		};
+		
+		function register() {
+			var bValid = true;
+			allFields.removeClass( "ui-state-error" );
+
+			bValid = bValid && checkLength( username, "Der Benutzername", 3, 16 );
+			bValid = bValid && checkLength( password, "Das Kennwort", 5, 16 );
+
+			bValid = bValid && checkRegexp( username, /^[a-z]([0-9a-z_])+$/i, "Der Name muss mit einem Buchstaben anfangen und darf sonst diese Zeichen nutzen: a-z, 0-9, _." );
+			bValid = bValid && checkRegexp( password, /^([0-9a-zA-Z])+$/, "Zulässige Zeichen : a-z 0-9" );
+
+			if ( bValid ) {
+				var registerAction = #{jsAction @Security.register() /}
+				$.ajax({
+					type:'POST',
+					url: registerAction(),
+					data: {username: username.val(), password: password.val()}
+				});
+			};
+		};
+		
+			
+		
+		// Dialog mit "Return" bestätigen
+		$('#secure-form').keyup(function(e) {
+		    if (e.keyCode == 13) {
+		    	$( "#secure-form" ).dialog("option","buttons")[0].click();
+		    }
+		});
+
+
+		
+		
+		$( "#login-user" )
+		.click(function() {
+			$("#validateTips").html("Bitte gib deinen Benutzernamen und dein Kennwort ein:");
+			$( "#secure-form" ).dialog({
+				height: 300,
+				width: 350,
+				modal: true,
+				title: "Anmelden",
+				buttons: [
+					{ text: "Anmelden", click: login},
+					{ text: "Abbrechen", click: function() {
+						$( this ).dialog( "close" );
+					}}
+				],
+				close: function() {
+					allFields.val( "" ).removeClass( "ui-state-error" );
+				}
+			});
+		});
+		
+		$( "#create-user" )
+		.click(function() {
+			$("#validateTips").html("Bitte alle Felder ausfüllen.");
+			$( "#secure-form" ).dialog({
+				height: 300,
+				width: 350,
+				modal: true,
+				title: "Benutzerkonto anlegen",
+				buttons: [
+							{ text: "Konto anlegen", click: register},
+							{ text: "Abbrechen", click: function() {
+								$( this ).dialog( "close" );
+							}}
+						],
+				close: function() {
+					allFields.val( "" ).removeClass( "ui-state-error" );
+				}
+			});
+		});
+		
+		// The progress bar for ajax calls...
+		$('#ajax-loader')
+		    .hide()  // hide it initially
+		    .ajaxStart(function() {
+		        $(this).show();
+		    })
+		    .ajaxStop(function() {
+		        $(this).hide();
+		    })
+		;
+
+	});
+	</script>
+	
+<div id="secure-form" class="dialog-form">
+	<p class="validateTips" id="validateTips"></p>
+
+	<form>
+	<fieldset>
+		<label for="name">Benutzername:</label>
+		<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" />
+		<label for="password">Kennwort:</label>
+		<input type="password" name="password" id="password" value="" class="text ui-widget-content ui-corner-all" />
+	</fieldset>
+	<div id="ajax-loader"><img src=@{'/public/images/ajax-loader.gif'}/></div>
+	</form>
+</div>
+#{/else}
+</div>

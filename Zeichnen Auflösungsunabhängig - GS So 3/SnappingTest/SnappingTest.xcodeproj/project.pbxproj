@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016CB0B5142B1F4C0064778B /* PWQuartzUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 016CB0B4142B1F4C0064778B /* PWQuartzUtilities.m */; };
+		016CB0B9142B1F6B0064778B /* PWGraphicsContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 016CB0B8142B1F6B0064778B /* PWGraphicsContext.m */; };
+		016CB0BC142B1F840064778B /* PWQuartzColorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 016CB0BB142B1F840064778B /* PWQuartzColorExtensions.m */; };
+		016CB0BE142B24D20064778B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016CB0BD142B24D20064778B /* QuartzCore.framework */; };
+		01A8864B142B1A0400DAEBFF /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8864A142B1A0400DAEBFF /* MyView.m */; };
+		01ADB106142A35E200794F7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ADB105142A35E200794F7E /* Cocoa.framework */; };
+		01ADB110142A35E200794F7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01ADB10E142A35E200794F7E /* InfoPlist.strings */; };
+		01ADB112142A35E200794F7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ADB111142A35E200794F7E /* main.m */; };
+		01ADB116142A35E200794F7E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01ADB114142A35E200794F7E /* Credits.rtf */; };
+		01ADB119142A35E200794F7E /* MCDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ADB118142A35E200794F7E /* MCDocument.m */; };
+		01ADB11C142A35E200794F7E /* MCDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01ADB11A142A35E200794F7E /* MCDocument.xib */; };
+		01ADB11F142A35E200794F7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01ADB11D142A35E200794F7E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016CB0B3142B1F4C0064778B /* PWQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWQuartzUtilities.h; sourceTree = "<group>"; };
+		016CB0B4142B1F4C0064778B /* PWQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWQuartzUtilities.m; sourceTree = "<group>"; };
+		016CB0B7142B1F6B0064778B /* PWGraphicsContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWGraphicsContext.h; sourceTree = "<group>"; };
+		016CB0B8142B1F6B0064778B /* PWGraphicsContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWGraphicsContext.m; sourceTree = "<group>"; };
+		016CB0BA142B1F840064778B /* PWQuartzColorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWQuartzColorExtensions.h; sourceTree = "<group>"; };
+		016CB0BB142B1F840064778B /* PWQuartzColorExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWQuartzColorExtensions.m; sourceTree = "<group>"; };
+		016CB0BD142B24D20064778B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		01A88649142B1A0400DAEBFF /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		01A8864A142B1A0400DAEBFF /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		01ADB101142A35E200794F7E /* SnappingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnappingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01ADB105142A35E200794F7E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		01ADB108142A35E200794F7E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		01ADB109142A35E200794F7E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		01ADB10A142A35E200794F7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01ADB10D142A35E200794F7E /* SnappingTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnappingTest-Info.plist"; sourceTree = "<group>"; };
+		01ADB10F142A35E200794F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01ADB111142A35E200794F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01ADB113142A35E200794F7E /* SnappingTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnappingTest-Prefix.pch"; sourceTree = "<group>"; };
+		01ADB115142A35E200794F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		01ADB117142A35E200794F7E /* MCDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDocument.h; sourceTree = "<group>"; };
+		01ADB118142A35E200794F7E /* MCDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDocument.m; sourceTree = "<group>"; };
+		01ADB11B142A35E200794F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MCDocument.xib; sourceTree = "<group>"; };
+		01ADB11E142A35E200794F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01ADB0FE142A35E200794F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016CB0BE142B24D20064778B /* QuartzCore.framework in Frameworks */,
+				01ADB106142A35E200794F7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01ADB0F6142A35E200794F7E = {
+			isa = PBXGroup;
+			children = (
+				016CB0BD142B24D20064778B /* QuartzCore.framework */,
+				01ADB10B142A35E200794F7E /* ImageTest */,
+				01ADB104142A35E200794F7E /* Frameworks */,
+				01ADB102142A35E200794F7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01ADB102142A35E200794F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01ADB101142A35E200794F7E /* SnappingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01ADB104142A35E200794F7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01ADB105142A35E200794F7E /* Cocoa.framework */,
+				01ADB107142A35E200794F7E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01ADB107142A35E200794F7E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01ADB108142A35E200794F7E /* AppKit.framework */,
+				01ADB109142A35E200794F7E /* CoreData.framework */,
+				01ADB10A142A35E200794F7E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		01ADB10B142A35E200794F7E /* ImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				01ADB117142A35E200794F7E /* MCDocument.h */,
+				01ADB118142A35E200794F7E /* MCDocument.m */,
+				01A88649142B1A0400DAEBFF /* MyView.h */,
+				01A8864A142B1A0400DAEBFF /* MyView.m */,
+				016CB0B3142B1F4C0064778B /* PWQuartzUtilities.h */,
+				016CB0B4142B1F4C0064778B /* PWQuartzUtilities.m */,
+				016CB0BA142B1F840064778B /* PWQuartzColorExtensions.h */,
+				016CB0BB142B1F840064778B /* PWQuartzColorExtensions.m */,
+				016CB0B7142B1F6B0064778B /* PWGraphicsContext.h */,
+				016CB0B8142B1F6B0064778B /* PWGraphicsContext.m */,
+				01ADB11A142A35E200794F7E /* MCDocument.xib */,
+				01ADB11D142A35E200794F7E /* MainMenu.xib */,
+				01ADB10C142A35E200794F7E /* Supporting Files */,
+			);
+			path = ImageTest;
+			sourceTree = "<group>";
+		};
+		01ADB10C142A35E200794F7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01ADB10D142A35E200794F7E /* SnappingTest-Info.plist */,
+				01ADB10E142A35E200794F7E /* InfoPlist.strings */,
+				01ADB111142A35E200794F7E /* main.m */,
+				01ADB113142A35E200794F7E /* SnappingTest-Prefix.pch */,
+				01ADB114142A35E200794F7E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01ADB100142A35E200794F7E /* SnappingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01ADB122142A35E200794F7E /* Build configuration list for PBXNativeTarget "SnappingTest" */;
+			buildPhases = (
+				01ADB0FD142A35E200794F7E /* Sources */,
+				01ADB0FE142A35E200794F7E /* Frameworks */,
+				01ADB0FF142A35E200794F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnappingTest;
+			productName = ImageTest;
+			productReference = 01ADB101142A35E200794F7E /* SnappingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01ADB0F8142A35E200794F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 01ADB0FB142A35E200794F7E /* Build configuration list for PBXProject "SnappingTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01ADB0F6142A35E200794F7E;
+			productRefGroup = 01ADB102142A35E200794F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01ADB100142A35E200794F7E /* SnappingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01ADB0FF142A35E200794F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01ADB110142A35E200794F7E /* InfoPlist.strings in Resources */,
+				01ADB116142A35E200794F7E /* Credits.rtf in Resources */,
+				01ADB11C142A35E200794F7E /* MCDocument.xib in Resources */,
+				01ADB11F142A35E200794F7E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01ADB0FD142A35E200794F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01ADB112142A35E200794F7E /* main.m in Sources */,
+				01ADB119142A35E200794F7E /* MCDocument.m in Sources */,
+				01A8864B142B1A0400DAEBFF /* MyView.m in Sources */,
+				016CB0B5142B1F4C0064778B /* PWQuartzUtilities.m in Sources */,
+				016CB0B9142B1F6B0064778B /* PWGraphicsContext.m in Sources */,
+				016CB0BC142B1F840064778B /* PWQuartzColorExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01ADB10E142A35E200794F7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01ADB10F142A35E200794F7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01ADB114142A35E200794F7E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01ADB115142A35E200794F7E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		01ADB11A142A35E200794F7E /* MCDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01ADB11B142A35E200794F7E /* en */,
+			);
+			name = MCDocument.xib;
+			sourceTree = "<group>";
+		};
+		01ADB11D142A35E200794F7E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01ADB11E142A35E200794F7E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01ADB120142A35E200794F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01ADB121142A35E200794F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01ADB123142A35E200794F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageTest/SnappingTest-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				INFOPLIST_FILE = "ImageTest/SnappingTest-Info.plist";
+				PRODUCT_NAME = SnappingTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01ADB124142A35E200794F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageTest/SnappingTest-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				INFOPLIST_FILE = "ImageTest/SnappingTest-Info.plist";
+				PRODUCT_NAME = SnappingTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01ADB0FB142A35E200794F7E /* Build configuration list for PBXProject "SnappingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01ADB120142A35E200794F7E /* Debug */,
+				01ADB121142A35E200794F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01ADB122142A35E200794F7E /* Build configuration list for PBXNativeTarget "SnappingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01ADB123142A35E200794F7E /* Debug */,
+				01ADB124142A35E200794F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01ADB0F8142A35E200794F7E /* Project object */;
+}

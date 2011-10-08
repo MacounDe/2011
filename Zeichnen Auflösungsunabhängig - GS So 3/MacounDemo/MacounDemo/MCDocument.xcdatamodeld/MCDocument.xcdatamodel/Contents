@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="870" systemVersion="11B26" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Node" representedClassName="MCNode" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="parentNode" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Node" inverseName="subNodes" inverseEntity="Node" syncable="YES"/>
+        <relationship name="subNodes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Node" inverseName="parentNode" inverseEntity="Node" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Node" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>

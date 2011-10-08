@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A651B882141969A900D3DD83 /* MyApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A651B881141969A900D3DD83 /* MyApplicationDelegate.m */; };
+		A66BEA61142233BB00C8786C /* MyButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A66BEA60142233BB00C8786C /* MyButtonCell.m */; };
+		A66BEA6B14223FD000C8786C /* button-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = A66BEA6914223FD000C8786C /* button-highlighted.png */; };
+		A66BEA6C14223FD000C8786C /* button-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A66BEA6A14223FD000C8786C /* button-normal.png */; };
+		A66BEA6F1422441D00C8786C /* button-pause.png in Resources */ = {isa = PBXBuildFile; fileRef = A66BEA6D1422441D00C8786C /* button-pause.png */; };
+		A66BEA701422441D00C8786C /* button-play.png in Resources */ = {isa = PBXBuildFile; fileRef = A66BEA6E1422441D00C8786C /* button-play.png */; };
+		A6C1E7041407B312006D2020 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C1E7031407B312006D2020 /* Cocoa.framework */; };
+		A6C1E70E1407B312006D2020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C1E70C1407B312006D2020 /* InfoPlist.strings */; };
+		A6C1E7101407B312006D2020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C1E70F1407B312006D2020 /* main.m */; };
+		A6C1E7141407B312006D2020 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A6C1E7121407B312006D2020 /* Credits.rtf */; };
+		A6C1E7171407B312006D2020 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C1E7161407B312006D2020 /* MyDocument.m */; };
+		A6C1E71A1407B312006D2020 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C1E7181407B312006D2020 /* MyDocument.xib */; };
+		A6C1E71D1407B312006D2020 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C1E71B1407B312006D2020 /* MainMenu.xib */; };
+		A6C1E72B1407B4CD006D2020 /* MyPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C1E72A1407B4CD006D2020 /* MyPlayerView.m */; };
+		A6C1E72F1407B62E006D2020 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C1E72E1407B62E006D2020 /* AVFoundation.framework */; };
+		A6C1E7311407FAE7006D2020 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C1E7301407FAE7006D2020 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A651B880141969A900D3DD83 /* MyApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyApplicationDelegate.h; sourceTree = "<group>"; };
+		A651B881141969A900D3DD83 /* MyApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyApplicationDelegate.m; sourceTree = "<group>"; };
+		A66BEA5F142233BB00C8786C /* MyButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButtonCell.h; sourceTree = "<group>"; };
+		A66BEA60142233BB00C8786C /* MyButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButtonCell.m; sourceTree = "<group>"; };
+		A66BEA6914223FD000C8786C /* button-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-highlighted.png"; path = "Graphics/button-highlighted.png"; sourceTree = "<group>"; };
+		A66BEA6A14223FD000C8786C /* button-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-normal.png"; path = "Graphics/button-normal.png"; sourceTree = "<group>"; };
+		A66BEA6D1422441D00C8786C /* button-pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-pause.png"; path = "Graphics/button-pause.png"; sourceTree = "<group>"; };
+		A66BEA6E1422441D00C8786C /* button-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-play.png"; path = "Graphics/button-play.png"; sourceTree = "<group>"; };
+		A6C1E6FF1407B311006D2020 /* Rough Cut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rough Cut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C1E7031407B312006D2020 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A6C1E7061407B312006D2020 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A6C1E7071407B312006D2020 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A6C1E7081407B312006D2020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C1E70B1407B312006D2020 /* Rough Cut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rough Cut-Info.plist"; sourceTree = "<group>"; };
+		A6C1E70D1407B312006D2020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C1E70F1407B312006D2020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C1E7111407B312006D2020 /* Rough Cut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rough Cut-Prefix.pch"; sourceTree = "<group>"; };
+		A6C1E7131407B312006D2020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A6C1E7151407B312006D2020 /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		A6C1E7161407B312006D2020 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		A6C1E7191407B312006D2020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		A6C1E71C1407B312006D2020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A6C1E7291407B4CD006D2020 /* MyPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayerView.h; sourceTree = "<group>"; };
+		A6C1E72A1407B4CD006D2020 /* MyPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlayerView.m; sourceTree = "<group>"; };
+		A6C1E72E1407B62E006D2020 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A6C1E7301407FAE7006D2020 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C1E6FC1407B311006D2020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C1E7311407FAE7006D2020 /* CoreMedia.framework in Frameworks */,
+				A6C1E72F1407B62E006D2020 /* AVFoundation.framework in Frameworks */,
+				A6C1E7041407B312006D2020 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A66BEA63142233BF00C8786C /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				A66BEA5F142233BB00C8786C /* MyButtonCell.h */,
+				A66BEA60142233BB00C8786C /* MyButtonCell.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		A66BEA6814223FB200C8786C /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				A66BEA6914223FD000C8786C /* button-highlighted.png */,
+				A66BEA6A14223FD000C8786C /* button-normal.png */,
+				A66BEA6D1422441D00C8786C /* button-pause.png */,
+				A66BEA6E1422441D00C8786C /* button-play.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		A6C1E6F41407B311006D2020 = {
+			isa = PBXGroup;
+			children = (
+				A6C1E7091407B312006D2020 /* Rough Cut */,
+				A6C1E7021407B311006D2020 /* Frameworks */,
+				A6C1E7001407B311006D2020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C1E7001407B311006D2020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C1E6FF1407B311006D2020 /* Rough Cut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C1E7021407B311006D2020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C1E72E1407B62E006D2020 /* AVFoundation.framework */,
+				A6C1E7031407B312006D2020 /* Cocoa.framework */,
+				A6C1E7301407FAE7006D2020 /* CoreMedia.framework */,
+				A6C1E7051407B312006D2020 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C1E7051407B312006D2020 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C1E7061407B312006D2020 /* AppKit.framework */,
+				A6C1E7071407B312006D2020 /* CoreData.framework */,
+				A6C1E7081407B312006D2020 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A6C1E7091407B312006D2020 /* Rough Cut */ = {
+			isa = PBXGroup;
+			children = (
+				A651B880141969A900D3DD83 /* MyApplicationDelegate.h */,
+				A651B881141969A900D3DD83 /* MyApplicationDelegate.m */,
+				A6C1E7151407B312006D2020 /* MyDocument.h */,
+				A6C1E7161407B312006D2020 /* MyDocument.m */,
+				A6C1E72C1407B4D7006D2020 /* Views */,
+				A66BEA63142233BF00C8786C /* Controls */,
+				A6C1E72D1407B510006D2020 /* XIBs */,
+				A6C1E70A1407B312006D2020 /* Supporting Files */,
+			);
+			path = "Rough Cut";
+			sourceTree = "<group>";
+		};
+		A6C1E70A1407B312006D2020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66BEA6814223FB200C8786C /* Graphics */,
+				A6C1E70B1407B312006D2020 /* Rough Cut-Info.plist */,
+				A6C1E70C1407B312006D2020 /* InfoPlist.strings */,
+				A6C1E70F1407B312006D2020 /* main.m */,
+				A6C1E7111407B312006D2020 /* Rough Cut-Prefix.pch */,
+				A6C1E7121407B312006D2020 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6C1E72C1407B4D7006D2020 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6C1E7291407B4CD006D2020 /* MyPlayerView.h */,
+				A6C1E72A1407B4CD006D2020 /* MyPlayerView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A6C1E72D1407B510006D2020 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				A6C1E71B1407B312006D2020 /* MainMenu.xib */,
+				A6C1E7181407B312006D2020 /* MyDocument.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C1E6FE1407B311006D2020 /* Rough Cut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C1E7201407B312006D2020 /* Build configuration list for PBXNativeTarget "Rough Cut" */;
+			buildPhases = (
+				A6C1E6FB1407B311006D2020 /* Sources */,
+				A6C1E6FC1407B311006D2020 /* Frameworks */,
+				A6C1E6FD1407B311006D2020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rough Cut";
+			productName = "Rough Cut";
+			productReference = A6C1E6FF1407B311006D2020 /* Rough Cut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C1E6F61407B311006D2020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Apple Inc.";
+			};
+			buildConfigurationList = A6C1E6F91407B311006D2020 /* Build configuration list for PBXProject "Rough Cut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C1E6F41407B311006D2020;
+			productRefGroup = A6C1E7001407B311006D2020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C1E6FE1407B311006D2020 /* Rough Cut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C1E6FD1407B311006D2020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C1E70E1407B312006D2020 /* InfoPlist.strings in Resources */,
+				A6C1E7141407B312006D2020 /* Credits.rtf in Resources */,
+				A6C1E71A1407B312006D2020 /* MyDocument.xib in Resources */,
+				A6C1E71D1407B312006D2020 /* MainMenu.xib in Resources */,
+				A66BEA6B14223FD000C8786C /* button-highlighted.png in Resources */,
+				A66BEA6C14223FD000C8786C /* button-normal.png in Resources */,
+				A66BEA6F1422441D00C8786C /* button-pause.png in Resources */,
+				A66BEA701422441D00C8786C /* button-play.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C1E6FB1407B311006D2020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C1E7101407B312006D2020 /* main.m in Sources */,
+				A6C1E7171407B312006D2020 /* MyDocument.m in Sources */,
+				A6C1E72B1407B4CD006D2020 /* MyPlayerView.m in Sources */,
+				A651B882141969A900D3DD83 /* MyApplicationDelegate.m in Sources */,
+				A66BEA61142233BB00C8786C /* MyButtonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C1E70C1407B312006D2020 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C1E70D1407B312006D2020 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6C1E7121407B312006D2020 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C1E7131407B312006D2020 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A6C1E7181407B312006D2020 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C1E7191407B312006D2020 /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		A6C1E71B1407B312006D2020 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C1E71C1407B312006D2020 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C1E71E1407B312006D2020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A6C1E71F1407B312006D2020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A6C1E7211407B312006D2020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rough Cut/Rough Cut-Prefix.pch";
+				INFOPLIST_FILE = "Rough Cut/Rough Cut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C1E7221407B312006D2020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rough Cut/Rough Cut-Prefix.pch";
+				INFOPLIST_FILE = "Rough Cut/Rough Cut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C1E6F91407B311006D2020 /* Build configuration list for PBXProject "Rough Cut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C1E71E1407B312006D2020 /* Debug */,
+				A6C1E71F1407B312006D2020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C1E7201407B312006D2020 /* Build configuration list for PBXNativeTarget "Rough Cut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C1E7211407B312006D2020 /* Debug */,
+				A6C1E7221407B312006D2020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C1E6F61407B311006D2020 /* Project object */;
+}

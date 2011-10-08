@@ -1,0 +1,13 @@
+#{extends 'main.html' /}
+#{set title:'MacRunners' /}
+
+#{login user /}
+<div id="column_box">
+						<div id="column1">
+							<h2>Willkommen, ${user ?: 'Runner'}!</h2>
+							<img src="@{'/public/images/img2.png'}" alt="" title="" style="float: left; padding-right: 20px;"/>
+							<p>${user ? (waypoints ? 'Auf der Karte siehst du alle deine Wegpunkte eingezeichnet.' : 'Sobald du Wegpunkte gesammelt hast, werden diese auf der Karte eingezeichnet.') : 'Melde dich an, um deine Läufe anzusehen.'} 
+</p>
+						</div>
+						<div class="clear"></div>
+</div>

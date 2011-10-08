@@ -1,0 +1,9 @@
+20 Sep 2011 08:40:39,761 INFO  ~ Starting /Volumes/macoun2011/Workspace/MacRunners/.
+20 Sep 2011 08:40:39,769 INFO  ~ Module secure is available (/Volumes/macoun2011/play-1.2.3/modules/secure)
+20 Sep 2011 08:40:41,097 WARN  ~ You're running Play! in DEV mode
+20 Sep 2011 08:40:44,371 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+20 Sep 2011 08:40:45,581 INFO  ~ Application 'MacRunners' is now started !
+20 Sep 2011 08:40:46,223 WARN  ~ SQL Error: 23001, SQLState: 23001
+20 Sep 2011 08:40:46,223 ERROR ~ Eindeutiger Index oder Primarschlüssel verletzt: "CONSTRAINT_INDEX_2 ON PUBLIC.USER(USERNAME)"
+Unique index or primary key violation: "CONSTRAINT_INDEX_2 ON PUBLIC.USER(USERNAME)"; SQL statement:
+insert into User (id, passwordHash, username) values (null, ?, ?) [23001-149]

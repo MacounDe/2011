@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A36F481428893100BF4861 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A36F471428893100BF4861 /* Cocoa.framework */; };
+		01A36F521428893100BF4861 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01A36F501428893100BF4861 /* InfoPlist.strings */; };
+		01A36F541428893100BF4861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A36F531428893100BF4861 /* main.m */; };
+		01A36F581428893100BF4861 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01A36F561428893100BF4861 /* Credits.rtf */; };
+		01A36F5B1428893100BF4861 /* MCDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A36F5A1428893100BF4861 /* MCDocument.m */; };
+		01A36F5E1428893100BF4861 /* MCDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A36F5C1428893100BF4861 /* MCDocument.xib */; };
+		01A36F611428893200BF4861 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A36F5F1428893200BF4861 /* MainMenu.xib */; };
+		01A36F641428893200BF4861 /* MCDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01A36F621428893200BF4861 /* MCDocument.xcdatamodeld */; };
+		01A36F6C1428898400BF4861 /* MCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A36F6B1428898400BF4861 /* MCNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A36F431428893100BF4861 /* MacounDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacounDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A36F471428893100BF4861 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		01A36F4A1428893100BF4861 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		01A36F4B1428893100BF4861 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		01A36F4C1428893100BF4861 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01A36F4F1428893100BF4861 /* MacounDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacounDemo-Info.plist"; sourceTree = "<group>"; };
+		01A36F511428893100BF4861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01A36F531428893100BF4861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01A36F551428893100BF4861 /* MacounDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacounDemo-Prefix.pch"; sourceTree = "<group>"; };
+		01A36F571428893100BF4861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		01A36F591428893100BF4861 /* MCDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDocument.h; sourceTree = "<group>"; };
+		01A36F5A1428893100BF4861 /* MCDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDocument.m; sourceTree = "<group>"; };
+		01A36F5D1428893100BF4861 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MCDocument.xib; sourceTree = "<group>"; };
+		01A36F601428893200BF4861 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		01A36F631428893200BF4861 /* MCDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MCDocument.xcdatamodel; sourceTree = "<group>"; };
+		01A36F6A1428898400BF4861 /* MCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNode.h; sourceTree = "<group>"; };
+		01A36F6B1428898400BF4861 /* MCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A36F401428893100BF4861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A36F481428893100BF4861 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A36F381428893000BF4861 = {
+			isa = PBXGroup;
+			children = (
+				01A36F4D1428893100BF4861 /* MacounDemo */,
+				01A36F461428893100BF4861 /* Frameworks */,
+				01A36F441428893100BF4861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01A36F441428893100BF4861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A36F431428893100BF4861 /* MacounDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A36F461428893100BF4861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01A36F471428893100BF4861 /* Cocoa.framework */,
+				01A36F491428893100BF4861 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01A36F491428893100BF4861 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01A36F4A1428893100BF4861 /* AppKit.framework */,
+				01A36F4B1428893100BF4861 /* CoreData.framework */,
+				01A36F4C1428893100BF4861 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		01A36F4D1428893100BF4861 /* MacounDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01A36F591428893100BF4861 /* MCDocument.h */,
+				01A36F5A1428893100BF4861 /* MCDocument.m */,
+				01A36F6A1428898400BF4861 /* MCNode.h */,
+				01A36F6B1428898400BF4861 /* MCNode.m */,
+				01A36F5C1428893100BF4861 /* MCDocument.xib */,
+				01A36F5F1428893200BF4861 /* MainMenu.xib */,
+				01A36F621428893200BF4861 /* MCDocument.xcdatamodeld */,
+				01A36F4E1428893100BF4861 /* Supporting Files */,
+			);
+			path = MacounDemo;
+			sourceTree = "<group>";
+		};
+		01A36F4E1428893100BF4861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A36F4F1428893100BF4861 /* MacounDemo-Info.plist */,
+				01A36F501428893100BF4861 /* InfoPlist.strings */,
+				01A36F531428893100BF4861 /* main.m */,
+				01A36F551428893100BF4861 /* MacounDemo-Prefix.pch */,
+				01A36F561428893100BF4861 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A36F421428893100BF4861 /* MacounDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A36F671428893200BF4861 /* Build configuration list for PBXNativeTarget "MacounDemo" */;
+			buildPhases = (
+				01A36F3F1428893100BF4861 /* Sources */,
+				01A36F401428893100BF4861 /* Frameworks */,
+				01A36F411428893100BF4861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacounDemo;
+			productName = MacounDemo;
+			productReference = 01A36F431428893100BF4861 /* MacounDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A36F3A1428893000BF4861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 01A36F3D1428893000BF4861 /* Build configuration list for PBXProject "MacounDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01A36F381428893000BF4861;
+			productRefGroup = 01A36F441428893100BF4861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A36F421428893100BF4861 /* MacounDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A36F411428893100BF4861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A36F521428893100BF4861 /* InfoPlist.strings in Resources */,
+				01A36F581428893100BF4861 /* Credits.rtf in Resources */,
+				01A36F5E1428893100BF4861 /* MCDocument.xib in Resources */,
+				01A36F611428893200BF4861 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A36F3F1428893100BF4861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A36F541428893100BF4861 /* main.m in Sources */,
+				01A36F5B1428893100BF4861 /* MCDocument.m in Sources */,
+				01A36F641428893200BF4861 /* MCDocument.xcdatamodeld in Sources */,
+				01A36F6C1428898400BF4861 /* MCNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01A36F501428893100BF4861 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A36F511428893100BF4861 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01A36F561428893100BF4861 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A36F571428893100BF4861 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		01A36F5C1428893100BF4861 /* MCDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A36F5D1428893100BF4861 /* en */,
+			);
+			name = MCDocument.xib;
+			sourceTree = "<group>";
+		};
+		01A36F5F1428893200BF4861 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A36F601428893200BF4861 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01A36F651428893200BF4861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01A36F661428893200BF4861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01A36F681428893200BF4861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacounDemo/MacounDemo-Prefix.pch";
+				INFOPLIST_FILE = "MacounDemo/MacounDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01A36F691428893200BF4861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacounDemo/MacounDemo-Prefix.pch";
+				INFOPLIST_FILE = "MacounDemo/MacounDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A36F3D1428893000BF4861 /* Build configuration list for PBXProject "MacounDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A36F651428893200BF4861 /* Debug */,
+				01A36F661428893200BF4861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A36F671428893200BF4861 /* Build configuration list for PBXNativeTarget "MacounDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A36F681428893200BF4861 /* Debug */,
+				01A36F691428893200BF4861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01A36F621428893200BF4861 /* MCDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01A36F631428893200BF4861 /* MCDocument.xcdatamodel */,
+			);
+			currentVersion = 01A36F631428893200BF4861 /* MCDocument.xcdatamodel */;
+			path = MCDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01A36F3A1428893000BF4861 /* Project object */;
+}

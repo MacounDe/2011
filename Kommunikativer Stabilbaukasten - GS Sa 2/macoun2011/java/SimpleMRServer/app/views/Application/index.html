@@ -1,0 +1,35 @@
+#{extends 'main.html' /}
+#{set title:'SimpleMRServer' /}
+
+<div id="cm-div" class="fullscreen"></div>
+
+<script type="text/javascript" src="http://tile.cloudmade.com/wml/latest/web-maps-lite.js"></script>
+<script type="text/javascript">	
+$(function() {
+    var cloudmade = new CM.Tiles.CloudMade.Web({key: '7c0e50acc711433ca1f4ebdf3b0f9fba',styleId:997}); // change your cloudemade API-Key here
+	var map = new CM.Map('cm-div', cloudmade);
+    map.addControl(new CM.SmallMapControl());
+    map.addControl(new CM.ScaleControl());
+    
+    var stepIcon = new CM.Icon();
+    stepIcon.image = "@{'/public/images/steps.png'}"; // based on http://www.openclipart.org/detail/154855/green-steps-by-netalloy
+    stepIcon.iconSize = new CM.Size(32,32);
+    stepIcon.iconAnchor = new CM.Point(16,16);
+    
+    
+    var latlng = new CM.LatLng(50,7); // default center
+    
+    var markers = [];
+    #{list items:waypoints, as:'waypoint'}
+    latlng = new CM.LatLng(${waypoint.latitude},${waypoint.longitude});
+    markers.push(new CM.Marker(latlng,{icon:stepIcon}));
+	#{/list}
+    
+    map.setCenter(latlng, 15);
+
+    var clusterer = new CM.MarkerClusterer(map, {clusterRadius: 70});
+    clusterer.addMarkers(markers);
+
+});
+    
+ </script>
