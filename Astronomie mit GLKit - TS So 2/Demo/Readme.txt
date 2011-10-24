@@ -1,0 +1,2 @@
+CubeMap.jpg ist eine eigens für diese Demo erstellte CubeMap. 
+Die anderen Texturen für die Planeten (moonmap1k.jpg, earthmap1k.jpg, etc.) wurden von http://planetpixelemporium.com/planets.html mit freundlicher Genehmigung von James Hastings-Trew heruntergeladen.

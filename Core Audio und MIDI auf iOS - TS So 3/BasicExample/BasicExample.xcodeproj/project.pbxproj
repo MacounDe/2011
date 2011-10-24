@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A900FA01435AD96001C28D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A900F9F1435AD96001C28D3 /* UIKit.framework */; };
+		8A900FA21435AD96001C28D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A900FA11435AD96001C28D3 /* Foundation.framework */; };
+		8A900FA41435AD96001C28D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A900FA31435AD96001C28D3 /* CoreGraphics.framework */; };
+		8A900FAA1435AD96001C28D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A900FA81435AD96001C28D3 /* InfoPlist.strings */; };
+		8A900FAC1435AD96001C28D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A900FAB1435AD96001C28D3 /* main.m */; };
+		8A900FB01435AD96001C28D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A900FAF1435AD96001C28D3 /* AppDelegate.m */; };
+		8A900FBC1435ADE2001C28D3 /* MixerHostAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A900FBB1435ADE2001C28D3 /* MixerHostAudio.m */; };
+		8A900FBE1435AFA5001C28D3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A900FBD1435AFA5001C28D3 /* AVFoundation.framework */; };
+		8A900FC01435AFAC001C28D3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A900FBF1435AFAC001C28D3 /* AudioToolbox.framework */; };
+		8A900FC31435B1C0001C28D3 /* beatsMono.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8A900FC11435B1C0001C28D3 /* beatsMono.caf */; };
+		8A900FC41435B1C0001C28D3 /* guitarStereo.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8A900FC21435B1C0001C28D3 /* guitarStereo.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A900F9B1435AD96001C28D3 /* BasicExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A900F9F1435AD96001C28D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A900FA11435AD96001C28D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A900FA31435AD96001C28D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A900FA71435AD96001C28D3 /* BasicExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicExample-Info.plist"; sourceTree = "<group>"; };
+		8A900FA91435AD96001C28D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A900FAB1435AD96001C28D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A900FAD1435AD96001C28D3 /* BasicExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicExample-Prefix.pch"; sourceTree = "<group>"; };
+		8A900FAE1435AD96001C28D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A900FAF1435AD96001C28D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A900FBA1435ADE2001C28D3 /* MixerHostAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixerHostAudio.h; sourceTree = "<group>"; };
+		8A900FBB1435ADE2001C28D3 /* MixerHostAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixerHostAudio.m; sourceTree = "<group>"; };
+		8A900FBD1435AFA5001C28D3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8A900FBF1435AFAC001C28D3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8A900FC11435B1C0001C28D3 /* beatsMono.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beatsMono.caf; sourceTree = "<group>"; };
+		8A900FC21435B1C0001C28D3 /* guitarStereo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = guitarStereo.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A900F981435AD96001C28D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A900FC01435AFAC001C28D3 /* AudioToolbox.framework in Frameworks */,
+				8A900FBE1435AFA5001C28D3 /* AVFoundation.framework in Frameworks */,
+				8A900FA01435AD96001C28D3 /* UIKit.framework in Frameworks */,
+				8A900FA21435AD96001C28D3 /* Foundation.framework in Frameworks */,
+				8A900FA41435AD96001C28D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A900F901435AD96001C28D3 = {
+			isa = PBXGroup;
+			children = (
+				8A900FA51435AD96001C28D3 /* BasicExample */,
+				8A900F9E1435AD96001C28D3 /* Frameworks */,
+				8A900F9C1435AD96001C28D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A900F9C1435AD96001C28D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A900F9B1435AD96001C28D3 /* BasicExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A900F9E1435AD96001C28D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A900FBF1435AFAC001C28D3 /* AudioToolbox.framework */,
+				8A900FBD1435AFA5001C28D3 /* AVFoundation.framework */,
+				8A900FA31435AD96001C28D3 /* CoreGraphics.framework */,
+				8A900FA11435AD96001C28D3 /* Foundation.framework */,
+				8A900F9F1435AD96001C28D3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A900FA51435AD96001C28D3 /* BasicExample */ = {
+			isa = PBXGroup;
+			children = (
+				8A900FAE1435AD96001C28D3 /* AppDelegate.h */,
+				8A900FAF1435AD96001C28D3 /* AppDelegate.m */,
+				8A900FBA1435ADE2001C28D3 /* MixerHostAudio.h */,
+				8A900FBB1435ADE2001C28D3 /* MixerHostAudio.m */,
+				8A900FA61435AD96001C28D3 /* Supporting Files */,
+			);
+			path = BasicExample;
+			sourceTree = "<group>";
+		};
+		8A900FA61435AD96001C28D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A900FC11435B1C0001C28D3 /* beatsMono.caf */,
+				8A900FC21435B1C0001C28D3 /* guitarStereo.caf */,
+				8A900FA71435AD96001C28D3 /* BasicExample-Info.plist */,
+				8A900FA81435AD96001C28D3 /* InfoPlist.strings */,
+				8A900FAB1435AD96001C28D3 /* main.m */,
+				8A900FAD1435AD96001C28D3 /* BasicExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A900F9A1435AD96001C28D3 /* BasicExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A900FB31435AD96001C28D3 /* Build configuration list for PBXNativeTarget "BasicExample" */;
+			buildPhases = (
+				8A900F971435AD96001C28D3 /* Sources */,
+				8A900F981435AD96001C28D3 /* Frameworks */,
+				8A900F991435AD96001C28D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicExample;
+			productName = BasicExample;
+			productReference = 8A900F9B1435AD96001C28D3 /* BasicExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A900F921435AD96001C28D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Extessy AG";
+			};
+			buildConfigurationList = 8A900F951435AD96001C28D3 /* Build configuration list for PBXProject "BasicExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A900F901435AD96001C28D3;
+			productRefGroup = 8A900F9C1435AD96001C28D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A900F9A1435AD96001C28D3 /* BasicExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A900F991435AD96001C28D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A900FAA1435AD96001C28D3 /* InfoPlist.strings in Resources */,
+				8A900FC31435B1C0001C28D3 /* beatsMono.caf in Resources */,
+				8A900FC41435B1C0001C28D3 /* guitarStereo.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A900F971435AD96001C28D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A900FAC1435AD96001C28D3 /* main.m in Sources */,
+				8A900FB01435AD96001C28D3 /* AppDelegate.m in Sources */,
+				8A900FBC1435ADE2001C28D3 /* MixerHostAudio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A900FA81435AD96001C28D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A900FA91435AD96001C28D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A900FB11435AD96001C28D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A900FB21435AD96001C28D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A900FB41435AD96001C28D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicExample/BasicExample-Prefix.pch";
+				INFOPLIST_FILE = "BasicExample/BasicExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A900FB51435AD96001C28D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicExample/BasicExample-Prefix.pch";
+				INFOPLIST_FILE = "BasicExample/BasicExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A900F951435AD96001C28D3 /* Build configuration list for PBXProject "BasicExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A900FB11435AD96001C28D3 /* Debug */,
+				8A900FB21435AD96001C28D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A900FB31435AD96001C28D3 /* Build configuration list for PBXNativeTarget "BasicExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A900FB41435AD96001C28D3 /* Debug */,
+				8A900FB51435AD96001C28D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A900F921435AD96001C28D3 /* Project object */;
+}

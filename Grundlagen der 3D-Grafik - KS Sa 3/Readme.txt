@@ -1,0 +1,1 @@
+Alle Bilder sind Eigenkreationen. Texturen (moonmap1k.jpg, earthmap1k.jpg) wurden von http://planetpixelemporium.com/planets.html mit freundlicher Genehmigung von James Hastings-Trew veršffentlich.

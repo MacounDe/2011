@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0EB29414437B190037B583 /* GLHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EB29314437B190037B583 /* GLHelper.c */; };
+		4D369E6614267B1500026E5C /* CubeMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D369E6514267B1500026E5C /* CubeMap.jpg */; };
+		4D75029F14140F66008486E1 /* earthmap1k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029014140F66008486E1 /* earthmap1k.jpg */; };
+		4D7502A014140F66008486E1 /* jupiter2_1k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029114140F66008486E1 /* jupiter2_1k.jpg */; };
+		4D7502A114140F66008486E1 /* marsmap1k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029214140F66008486E1 /* marsmap1k.jpg */; };
+		4D7502A214140F66008486E1 /* mercurymap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029314140F66008486E1 /* mercurymap.jpg */; };
+		4D7502A314140F66008486E1 /* moonmap1k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029414140F66008486E1 /* moonmap1k.jpg */; };
+		4D7502A414140F66008486E1 /* neptunemap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029514140F66008486E1 /* neptunemap.jpg */; };
+		4D7502A514140F66008486E1 /* plutomap1k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029614140F66008486E1 /* plutomap1k.jpg */; };
+		4D7502A614140F66008486E1 /* saturnmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029714140F66008486E1 /* saturnmap.jpg */; };
+		4D7502A714140F66008486E1 /* saturnringcolor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029814140F66008486E1 /* saturnringcolor.jpg */; };
+		4D7502A814140F66008486E1 /* saturnringpattern-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029914140F66008486E1 /* saturnringpattern-1.gif */; };
+		4D7502A914140F66008486E1 /* sunmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029A14140F66008486E1 /* sunmap.jpg */; };
+		4D7502AA14140F66008486E1 /* uranusmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029B14140F66008486E1 /* uranusmap.jpg */; };
+		4D7502AB14140F66008486E1 /* uranusringcolour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029C14140F66008486E1 /* uranusringcolour.jpg */; };
+		4D7502AC14140F66008486E1 /* uranusringtrans-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029D14140F66008486E1 /* uranusringtrans-1.gif */; };
+		4D7502AD14140F66008486E1 /* venusmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D75029E14140F66008486E1 /* venusmap.jpg */; };
+		4D98DC53140637DF001B501A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D98DC52140637DF001B501A /* UIKit.framework */; };
+		4D98DC55140637DF001B501A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D98DC54140637DF001B501A /* Foundation.framework */; };
+		4D98DC57140637DF001B501A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D98DC56140637DF001B501A /* CoreGraphics.framework */; };
+		4D98DC59140637DF001B501A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D98DC58140637DF001B501A /* QuartzCore.framework */; };
+		4D98DC5B140637DF001B501A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D98DC5A140637DF001B501A /* OpenGLES.framework */; };
+		4D98DC61140637DF001B501A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D98DC5F140637DF001B501A /* InfoPlist.strings */; };
+		4D98DC63140637DF001B501A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DC62140637DF001B501A /* main.m */; };
+		4D98DC67140637DF001B501A /* AstroDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DC66140637DF001B501A /* AstroDemoAppDelegate.m */; };
+		4D98DC6A140637DF001B501A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D98DC68140637DF001B501A /* MainStoryboard_iPhone.storyboard */; };
+		4D98DC6D140637DF001B501A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D98DC6B140637DF001B501A /* MainStoryboard_iPad.storyboard */; };
+		4D98DC77140637DF001B501A /* AstroDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DC76140637DF001B501A /* AstroDemoViewController.m */; };
+		4D98DC7E140641AA001B501A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D98DC7D140641AA001B501A /* GLKit.framework */; };
+		4D98DCD01409418A001B501A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DCCD14094189001B501A /* Model.m */; };
+		4D98DCD11409418A001B501A /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DCCF1409418A001B501A /* Planet.m */; };
+		4D98DCD7140A4130001B501A /* AstronomicalObjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D98DCD6140A412F001B501A /* AstronomicalObjects.plist */; };
+		4D98DCDC140A42F0001B501A /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DCD9140A42EE001B501A /* Scene.m */; };
+		4D98DCDD140A42F0001B501A /* AstronomicalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DCDB140A42EF001B501A /* AstronomicalObject.m */; };
+		4D98DCE0140A431D001B501A /* PlanetTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DCDF140A431D001B501A /* PlanetTrace.m */; };
+		658294591449E40900315119 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 658294581449E40900315119 /* Readme.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D0EB29314437B190037B583 /* GLHelper.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; fileEncoding = 4; path = GLHelper.c; sourceTree = "<group>"; };
+		4D369E6514267B1500026E5C /* CubeMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CubeMap.jpg; sourceTree = "<group>"; };
+		4D75029014140F66008486E1 /* earthmap1k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earthmap1k.jpg; sourceTree = "<group>"; };
+		4D75029114140F66008486E1 /* jupiter2_1k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter2_1k.jpg; sourceTree = "<group>"; };
+		4D75029214140F66008486E1 /* marsmap1k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marsmap1k.jpg; sourceTree = "<group>"; };
+		4D75029314140F66008486E1 /* mercurymap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercurymap.jpg; sourceTree = "<group>"; };
+		4D75029414140F66008486E1 /* moonmap1k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moonmap1k.jpg; sourceTree = "<group>"; };
+		4D75029514140F66008486E1 /* neptunemap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neptunemap.jpg; sourceTree = "<group>"; };
+		4D75029614140F66008486E1 /* plutomap1k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plutomap1k.jpg; sourceTree = "<group>"; };
+		4D75029714140F66008486E1 /* saturnmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturnmap.jpg; sourceTree = "<group>"; };
+		4D75029814140F66008486E1 /* saturnringcolor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturnringcolor.jpg; sourceTree = "<group>"; };
+		4D75029914140F66008486E1 /* saturnringpattern-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "saturnringpattern-1.gif"; sourceTree = "<group>"; };
+		4D75029A14140F66008486E1 /* sunmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunmap.jpg; sourceTree = "<group>"; };
+		4D75029B14140F66008486E1 /* uranusmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranusmap.jpg; sourceTree = "<group>"; };
+		4D75029C14140F66008486E1 /* uranusringcolour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranusringcolour.jpg; sourceTree = "<group>"; };
+		4D75029D14140F66008486E1 /* uranusringtrans-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "uranusringtrans-1.gif"; sourceTree = "<group>"; };
+		4D75029E14140F66008486E1 /* venusmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venusmap.jpg; sourceTree = "<group>"; };
+		4D98DC4E140637DF001B501A /* AstroDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D98DC52140637DF001B501A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D98DC54140637DF001B501A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D98DC56140637DF001B501A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D98DC58140637DF001B501A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D98DC5A140637DF001B501A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4D98DC5E140637DF001B501A /* AstroDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AstroDemo-Info.plist"; sourceTree = "<group>"; };
+		4D98DC60140637DF001B501A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D98DC62140637DF001B501A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D98DC64140637DF001B501A /* AstroDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AstroDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4D98DC65140637DF001B501A /* AstroDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstroDemoAppDelegate.h; sourceTree = "<group>"; };
+		4D98DC66140637DF001B501A /* AstroDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroDemoAppDelegate.m; sourceTree = "<group>"; };
+		4D98DC69140637DF001B501A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4D98DC6C140637DF001B501A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4D98DC75140637DF001B501A /* AstroDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstroDemoViewController.h; sourceTree = "<group>"; };
+		4D98DC76140637DF001B501A /* AstroDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroDemoViewController.m; sourceTree = "<group>"; };
+		4D98DC7D140641AA001B501A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4D98DCCC14094189001B501A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		4D98DCCD14094189001B501A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		4D98DCCE1409418A001B501A /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		4D98DCCF1409418A001B501A /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		4D98DCD6140A412F001B501A /* AstronomicalObjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AstronomicalObjects.plist; path = ../AstronomicalObjects.plist; sourceTree = "<group>"; };
+		4D98DCD8140A42EE001B501A /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		4D98DCD9140A42EE001B501A /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		4D98DCDA140A42EF001B501A /* AstronomicalObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalObject.h; sourceTree = "<group>"; };
+		4D98DCDB140A42EF001B501A /* AstronomicalObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalObject.m; sourceTree = "<group>"; };
+		4D98DCDE140A431C001B501A /* PlanetTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetTrace.h; sourceTree = "<group>"; };
+		4D98DCDF140A431D001B501A /* PlanetTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetTrace.m; sourceTree = "<group>"; };
+		652D54DE142DCD07009487B8 /* GLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLHelper.h; sourceTree = "<group>"; };
+		658294581449E40900315119 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D98DC4B140637DF001B501A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D98DC7E140641AA001B501A /* GLKit.framework in Frameworks */,
+				4D98DC53140637DF001B501A /* UIKit.framework in Frameworks */,
+				4D98DC55140637DF001B501A /* Foundation.framework in Frameworks */,
+				4D98DC57140637DF001B501A /* CoreGraphics.framework in Frameworks */,
+				4D98DC59140637DF001B501A /* QuartzCore.framework in Frameworks */,
+				4D98DC5B140637DF001B501A /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D75028E14140F39008486E1 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				658294581449E40900315119 /* Readme.txt */,
+				4D369E6514267B1500026E5C /* CubeMap.jpg */,
+				4D75029014140F66008486E1 /* earthmap1k.jpg */,
+				4D75029114140F66008486E1 /* jupiter2_1k.jpg */,
+				4D75029214140F66008486E1 /* marsmap1k.jpg */,
+				4D75029314140F66008486E1 /* mercurymap.jpg */,
+				4D75029414140F66008486E1 /* moonmap1k.jpg */,
+				4D75029514140F66008486E1 /* neptunemap.jpg */,
+				4D75029614140F66008486E1 /* plutomap1k.jpg */,
+				4D75029714140F66008486E1 /* saturnmap.jpg */,
+				4D75029814140F66008486E1 /* saturnringcolor.jpg */,
+				4D75029914140F66008486E1 /* saturnringpattern-1.gif */,
+				4D75029A14140F66008486E1 /* sunmap.jpg */,
+				4D75029B14140F66008486E1 /* uranusmap.jpg */,
+				4D75029C14140F66008486E1 /* uranusringcolour.jpg */,
+				4D75029D14140F66008486E1 /* uranusringtrans-1.gif */,
+				4D75029E14140F66008486E1 /* venusmap.jpg */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		4D98DC43140637DE001B501A = {
+			isa = PBXGroup;
+			children = (
+				4D75028E14140F39008486E1 /* Textures */,
+				4D98DC5C140637DF001B501A /* AstroDemo */,
+				4D98DC51140637DF001B501A /* Frameworks */,
+				4D98DC4F140637DF001B501A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D98DC4F140637DF001B501A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D98DC4E140637DF001B501A /* AstroDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D98DC51140637DF001B501A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D98DC7D140641AA001B501A /* GLKit.framework */,
+				4D98DC52140637DF001B501A /* UIKit.framework */,
+				4D98DC54140637DF001B501A /* Foundation.framework */,
+				4D98DC56140637DF001B501A /* CoreGraphics.framework */,
+				4D98DC58140637DF001B501A /* QuartzCore.framework */,
+				4D98DC5A140637DF001B501A /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D98DC5C140637DF001B501A /* AstroDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65E9AD8C142D23F00024962F /* Helper */,
+				65E9AD8B142D23CE0024962F /* Data Structures */,
+				65E9AD8A142D23B30024962F /* Model */,
+				4D98DC65140637DF001B501A /* AstroDemoAppDelegate.h */,
+				4D98DC66140637DF001B501A /* AstroDemoAppDelegate.m */,
+				4D98DC68140637DF001B501A /* MainStoryboard_iPhone.storyboard */,
+				4D98DC6B140637DF001B501A /* MainStoryboard_iPad.storyboard */,
+				4D98DC75140637DF001B501A /* AstroDemoViewController.h */,
+				4D98DC76140637DF001B501A /* AstroDemoViewController.m */,
+				4D98DC5D140637DF001B501A /* Supporting Files */,
+			);
+			path = AstroDemo;
+			sourceTree = "<group>";
+		};
+		4D98DC5D140637DF001B501A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D98DC5E140637DF001B501A /* AstroDemo-Info.plist */,
+				4D98DC5F140637DF001B501A /* InfoPlist.strings */,
+				4D98DC62140637DF001B501A /* main.m */,
+				4D98DC64140637DF001B501A /* AstroDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65E9AD8A142D23B30024962F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D98DCCC14094189001B501A /* Model.h */,
+				4D98DCCD14094189001B501A /* Model.m */,
+				4D98DCCE1409418A001B501A /* Planet.h */,
+				4D98DCCF1409418A001B501A /* Planet.m */,
+				4D98DCDE140A431C001B501A /* PlanetTrace.h */,
+				4D98DCDF140A431D001B501A /* PlanetTrace.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		65E9AD8B142D23CE0024962F /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				4D98DCD6140A412F001B501A /* AstronomicalObjects.plist */,
+				4D98DCD8140A42EE001B501A /* Scene.h */,
+				4D98DCD9140A42EE001B501A /* Scene.m */,
+				4D98DCDA140A42EF001B501A /* AstronomicalObject.h */,
+				4D98DCDB140A42EF001B501A /* AstronomicalObject.m */,
+			);
+			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		65E9AD8C142D23F00024962F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				652D54DE142DCD07009487B8 /* GLHelper.h */,
+				4D0EB29314437B190037B583 /* GLHelper.c */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D98DC4D140637DF001B501A /* AstroDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D98DC7A140637DF001B501A /* Build configuration list for PBXNativeTarget "AstroDemo" */;
+			buildPhases = (
+				4D98DC4A140637DF001B501A /* Sources */,
+				4D98DC4B140637DF001B501A /* Frameworks */,
+				4D98DC4C140637DF001B501A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroDemo;
+			productName = AstroDemo;
+			productReference = 4D98DC4E140637DF001B501A /* AstroDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D98DC45140637DF001B501A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = PRODEVCON;
+			};
+			buildConfigurationList = 4D98DC48140637DF001B501A /* Build configuration list for PBXProject "AstroDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D98DC43140637DE001B501A;
+			productRefGroup = 4D98DC4F140637DF001B501A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D98DC4D140637DF001B501A /* AstroDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D98DC4C140637DF001B501A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D98DC61140637DF001B501A /* InfoPlist.strings in Resources */,
+				4D98DC6A140637DF001B501A /* MainStoryboard_iPhone.storyboard in Resources */,
+				4D98DC6D140637DF001B501A /* MainStoryboard_iPad.storyboard in Resources */,
+				4D98DCD7140A4130001B501A /* AstronomicalObjects.plist in Resources */,
+				4D75029F14140F66008486E1 /* earthmap1k.jpg in Resources */,
+				4D7502A014140F66008486E1 /* jupiter2_1k.jpg in Resources */,
+				4D7502A114140F66008486E1 /* marsmap1k.jpg in Resources */,
+				4D7502A214140F66008486E1 /* mercurymap.jpg in Resources */,
+				4D7502A314140F66008486E1 /* moonmap1k.jpg in Resources */,
+				4D7502A414140F66008486E1 /* neptunemap.jpg in Resources */,
+				4D7502A514140F66008486E1 /* plutomap1k.jpg in Resources */,
+				4D7502A614140F66008486E1 /* saturnmap.jpg in Resources */,
+				4D7502A714140F66008486E1 /* saturnringcolor.jpg in Resources */,
+				4D7502A814140F66008486E1 /* saturnringpattern-1.gif in Resources */,
+				4D7502A914140F66008486E1 /* sunmap.jpg in Resources */,
+				4D7502AA14140F66008486E1 /* uranusmap.jpg in Resources */,
+				4D7502AB14140F66008486E1 /* uranusringcolour.jpg in Resources */,
+				4D7502AC14140F66008486E1 /* uranusringtrans-1.gif in Resources */,
+				4D7502AD14140F66008486E1 /* venusmap.jpg in Resources */,
+				4D369E6614267B1500026E5C /* CubeMap.jpg in Resources */,
+				658294591449E40900315119 /* Readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D98DC4A140637DF001B501A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D98DC63140637DF001B501A /* main.m in Sources */,
+				4D98DC67140637DF001B501A /* AstroDemoAppDelegate.m in Sources */,
+				4D98DC77140637DF001B501A /* AstroDemoViewController.m in Sources */,
+				4D98DCD01409418A001B501A /* Model.m in Sources */,
+				4D98DCD11409418A001B501A /* Planet.m in Sources */,
+				4D98DCDC140A42F0001B501A /* Scene.m in Sources */,
+				4D98DCDD140A42F0001B501A /* AstronomicalObject.m in Sources */,
+				4D98DCE0140A431D001B501A /* PlanetTrace.m in Sources */,
+				4D0EB29414437B190037B583 /* GLHelper.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D98DC5F140637DF001B501A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D98DC60140637DF001B501A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D98DC68140637DF001B501A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D98DC69140637DF001B501A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4D98DC6B140637DF001B501A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D98DC6C140637DF001B501A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D98DC78140637DF001B501A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D98DC79140637DF001B501A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D98DC7B140637DF001B501A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AstroDemo/AstroDemo-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "AstroDemo/AstroDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D98DC7C140637DF001B501A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AstroDemo/AstroDemo-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "AstroDemo/AstroDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D98DC48140637DF001B501A /* Build configuration list for PBXProject "AstroDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D98DC78140637DF001B501A /* Debug */,
+				4D98DC79140637DF001B501A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D98DC7A140637DF001B501A /* Build configuration list for PBXNativeTarget "AstroDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D98DC7B140637DF001B501A /* Debug */,
+				4D98DC7C140637DF001B501A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D98DC45140637DF001B501A /* Project object */;
+}

@@ -1,0 +1,15 @@
+Das HID4-Beispielprojekt (Spiel) enthält folgende Quellen:
+
+Helikopter (helicopter.vnt):
+Autor: AcharyaD, Turbosquid 
+URL: http://www.turbosquid.com/3d-models/free-3ds-mode-b-206-helicopter/562873
+Referenzdatum: 20. August 2011
+Lizenz: Turbosquid "Standard royalty free" license. Das Modell darf als Bestandteil von Spielen in proprietärer Binärform weitergegeben werden.
+
+Skydome-Textur (skydome.jpg):
+Autor: Philippe E. Hurbain
+URL: http://www.philohome.com/skycollec/skycollec.htm 
+Referenzdatum: 22. August 2011
+Lizenz: "You can use these skies for any purpose, such as […] Background for 3D image synthesis"
+
+Alle sonstigen Materialien in den Projekten und auf den Folien wurden selbst erstellt.

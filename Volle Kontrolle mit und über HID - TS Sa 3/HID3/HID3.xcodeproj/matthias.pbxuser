@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* HID3AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 648}}";
+			sepNavSelRange = "{307, 0}";
+			sepNavVisRange = "{0, 353}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* HID3AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 648}}";
+			sepNavSelRange = "{313, 0}";
+			sepNavVisRange = "{0, 580}";
+			sepNavWindowFrame = "{{15, 12}, {1265, 761}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 392E96F213FC816C00498B4A /* HID3 */;
+		activeTarget = 8D1107260486CEB800E47090 /* HID3 */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* HID3 */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 392E970413FC818400498B4A /* Code sense */;
+		executables = (
+			392E96F213FC816C00498B4A /* HID3 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					591,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 335720964;
+			PBXWorkspaceStateSaveDate = 335720964;
+		};
+		perUserProjectItems = {
+			392E97AD13FD1E7100498B4A /* PBXTextBookmark */ = 392E97AD13FD1E7100498B4A /* PBXTextBookmark */;
+			392E97AE13FD1E7100498B4A /* PBXTextBookmark */ = 392E97AE13FD1E7100498B4A /* PBXTextBookmark */;
+			392E97B013FD1E7100498B4A /* PBXTextBookmark */ = 392E97B013FD1E7100498B4A /* PBXTextBookmark */;
+			39311E101402B22200E89E5C /* PBXTextBookmark */ = 39311E101402B22200E89E5C /* PBXTextBookmark */;
+			39311E261402B71D00E89E5C /* PBXTextBookmark */ = 39311E261402B71D00E89E5C /* PBXTextBookmark */;
+			39311E271402B71D00E89E5C /* PBXTextBookmark */ = 39311E271402B71D00E89E5C /* PBXTextBookmark */;
+			39311E281402B71D00E89E5C /* PBXTextBookmark */ = 39311E281402B71D00E89E5C /* PBXTextBookmark */;
+			39311E2B1402B76500E89E5C /* PBXTextBookmark */ = 39311E2B1402B76500E89E5C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 392E970313FC818400498B4A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	392E96F213FC816C00498B4A /* HID3 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HID3;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	392E970313FC818400498B4A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	392E970413FC818400498B4A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	392E970613FC81BA00498B4A /* HIDCollection.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 325}}";
+			sepNavSelRange = "{255, 0}";
+			sepNavVisRange = "{0, 376}";
+		};
+	};
+	392E970713FC81BA00498B4A /* HIDCollection.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 1339}}";
+			sepNavSelRange = "{0, 3184}";
+			sepNavVisRange = "{2187, 730}";
+			sepNavWindowFrame = "{{15, 17}, {1265, 761}}";
+		};
+	};
+	392E970813FC81BA00498B4A /* HIDDevice.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 648}}";
+			sepNavSelRange = "{959, 0}";
+			sepNavVisRange = "{0, 1066}";
+			sepNavWindowFrame = "{{15, 12}, {1265, 761}}";
+		};
+	};
+	392E970913FC81BA00498B4A /* HIDDevice.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 3211}}";
+			sepNavSelRange = "{7496, 0}";
+			sepNavVisRange = "{4250, 1021}";
+			sepNavWindowFrame = "{{61, 17}, {1265, 761}}";
+		};
+	};
+	392E97AD13FD1E7100498B4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392E970813FC81BA00498B4A /* HIDDevice.h */;
+		name = "HIDDevice.h: 26";
+		rLen = 0;
+		rLoc = 568;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 190;
+	};
+	392E97AE13FD1E7100498B4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392E97AF13FD1E7100498B4A /* IOHIDKeys.h */;
+		name = "IOHIDKeys.h: 231";
+		rLen = 0;
+		rLoc = 10559;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 10083;
+	};
+	392E97AF13FD1E7100498B4A /* IOHIDKeys.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IOHIDKeys.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/hid/IOHIDKeys.h;
+		sourceTree = "<absolute>";
+	};
+	392E97B013FD1E7100498B4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392E97B113FD1E7100498B4A /* IOHIDBase.h */;
+		name = "IOHIDBase.h: 34";
+		rLen = 47;
+		rLoc = 1185;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 2113;
+	};
+	392E97B113FD1E7100498B4A /* IOHIDBase.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IOHIDBase.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/hid/IOHIDBase.h;
+		sourceTree = "<absolute>";
+	};
+	392E981613FD34F200498B4A /* IOHIDDevice.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IOHIDDevice.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/hid/IOHIDDevice.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 8190}}";
+			sepNavSelRange = "{13330, 0}";
+			sepNavVisRange = "{12285, 1127}";
+		};
+	};
+	39311E101402B22200E89E5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392E981613FD34F200498B4A /* IOHIDDevice.h */;
+		name = "IOHIDDevice.h: 288";
+		rLen = 0;
+		rLoc = 13330;
+		rType = 0;
+		vrLen = 1127;
+		vrLoc = 12285;
+	};
+	39311E261402B71D00E89E5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392E970913FC81BA00498B4A /* HIDDevice.m */;
+		name = "HIDDevice.m: 190";
+		rLen = 0;
+		rLoc = 7496;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 4250;
+	};
+	39311E271402B71D00E89E5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392E970613FC81BA00498B4A /* HIDCollection.h */;
+		name = "HIDCollection.h: 13";
+		rLen = 0;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 0;
+	};
+	39311E281402B71D00E89E5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392E970713FC81BA00498B4A /* HIDCollection.m */;
+		name = "HIDCollection.m: 13";
+		rLen = 0;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	39311E2B1402B76500E89E5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392E970713FC81BA00498B4A /* HIDCollection.m */;
+		name = "HIDCollection.m: 1";
+		rLen = 3184;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 730;
+		vrLoc = 2187;
+	};
+	8D1107260486CEB800E47090 /* HID3 */ = {
+		activeExec = 0;
+		executables = (
+			392E96F213FC816C00498B4A /* HID3 */,
+		);
+	};
+}

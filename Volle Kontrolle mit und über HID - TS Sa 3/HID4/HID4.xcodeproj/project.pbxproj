@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* HID4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* HID4AppDelegate.m */; };
+		39260F4F140077DA00C0FC5C /* helicopter.fs in Resources */ = {isa = PBXBuildFile; fileRef = 39260F4D140077DA00C0FC5C /* helicopter.fs */; };
+		39260F50140077DA00C0FC5C /* helicopter.vs in Resources */ = {isa = PBXBuildFile; fileRef = 39260F4E140077DA00C0FC5C /* helicopter.vs */; };
+		3929232613FE8CF700ED2CEB /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3929232513FE8CF700ED2CEB /* Camera.m */; };
+		3929233413FE8E4900ED2CEB /* geometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 3929233313FE8E4900ED2CEB /* geometry.c */; };
+		3929252113FFEBDF00ED2CEB /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3929252013FFEBDF00ED2CEB /* Game.m */; };
+		3929262814000D0D00ED2CEB /* OGLResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3929262714000D0D00ED2CEB /* OGLResourceManager.m */; };
+		39311A091401B26F00E89E5C /* Sky.m in Sources */ = {isa = PBXBuildFile; fileRef = 39311A081401B26F00E89E5C /* Sky.m */; };
+		39311A1C1401CAA500E89E5C /* sky.fs in Resources */ = {isa = PBXBuildFile; fileRef = 39311A1A1401CAA500E89E5C /* sky.fs */; };
+		39311A1D1401CAA500E89E5C /* sky.vs in Resources */ = {isa = PBXBuildFile; fileRef = 39311A1B1401CAA500E89E5C /* sky.vs */; };
+		39311A3C1401CBC500E89E5C /* skydome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39311A3B1401CBC500E89E5C /* skydome.jpg */; };
+		39311C171402774000E89E5C /* heightcolormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 39311C161402774000E89E5C /* heightcolormap.png */; };
+		393701A813FDEB8F00F9C7C5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 393701A713FDEB8F00F9C7C5 /* Player.m */; };
+		393701AD13FDECD800F9C7C5 /* HIDCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 393701AA13FDECD800F9C7C5 /* HIDCollection.m */; };
+		393701AE13FDECD800F9C7C5 /* HIDDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 393701AC13FDECD800F9C7C5 /* HIDDevice.m */; };
+		393701C513FDEFB900F9C7C5 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393701C413FDEFB900F9C7C5 /* IOKit.framework */; };
+		3937027D13FE60B200F9C7C5 /* heightmap.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3937027C13FE60B200F9C7C5 /* heightmap.tiff */; };
+		39DC400213FD52E500C14003 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DC400113FD52E500C14003 /* OpenGL.framework */; };
+		39DC400913FD530500C14003 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DC400813FD530500C14003 /* MyOpenGLView.m */; };
+		39DC408D13FD685800C14003 /* Terrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DC408C13FD685800C14003 /* Terrain.m */; };
+		39DC409313FD754900C14003 /* terrain.fs in Resources */ = {isa = PBXBuildFile; fileRef = 39DC409113FD754900C14003 /* terrain.fs */; };
+		39DC409413FD754900C14003 /* terrain.vs in Resources */ = {isa = PBXBuildFile; fileRef = 39DC409213FD754900C14003 /* terrain.vs */; };
+		39EA74C714013D7600E7E7FA /* rotor.fs in Resources */ = {isa = PBXBuildFile; fileRef = 39EA74C514013D7600E7E7FA /* rotor.fs */; };
+		39EA74C814013D7600E7E7FA /* rotor.vs in Resources */ = {isa = PBXBuildFile; fileRef = 39EA74C614013D7600E7E7FA /* rotor.vs */; };
+		39F5086714329443006A0732 /* helicopter.vnt in Resources */ = {isa = PBXBuildFile; fileRef = 39F5086614329443006A0732 /* helicopter.vnt */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* HID4AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HID4AppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* HID4AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HID4AppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* HID4_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HID4_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		39260F4D140077DA00C0FC5C /* helicopter.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = helicopter.fs; sourceTree = "<group>"; };
+		39260F4E140077DA00C0FC5C /* helicopter.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = helicopter.vs; sourceTree = "<group>"; };
+		3929232413FE8CF700ED2CEB /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		3929232513FE8CF700ED2CEB /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		3929233213FE8E4900ED2CEB /* geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
+		3929233313FE8E4900ED2CEB /* geometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geometry.c; sourceTree = "<group>"; };
+		3929251F13FFEBDF00ED2CEB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		3929252013FFEBDF00ED2CEB /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		3929262614000D0D00ED2CEB /* OGLResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLResourceManager.h; sourceTree = "<group>"; };
+		3929262714000D0D00ED2CEB /* OGLResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLResourceManager.m; sourceTree = "<group>"; };
+		39311A071401B26F00E89E5C /* Sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sky.h; sourceTree = "<group>"; };
+		39311A081401B26F00E89E5C /* Sky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sky.m; sourceTree = "<group>"; };
+		39311A0A1401C1D600E89E5C /* glTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glTools.h; sourceTree = "<group>"; };
+		39311A1A1401CAA500E89E5C /* sky.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sky.fs; sourceTree = "<group>"; };
+		39311A1B1401CAA500E89E5C /* sky.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sky.vs; sourceTree = "<group>"; };
+		39311A3B1401CBC500E89E5C /* skydome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skydome.jpg; sourceTree = "<group>"; };
+		39311C161402774000E89E5C /* heightcolormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heightcolormap.png; sourceTree = "<group>"; };
+		393701A613FDEB8F00F9C7C5 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		393701A713FDEB8F00F9C7C5 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		393701A913FDECD800F9C7C5 /* HIDCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDCollection.h; sourceTree = "<group>"; };
+		393701AA13FDECD800F9C7C5 /* HIDCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDCollection.m; sourceTree = "<group>"; };
+		393701AB13FDECD800F9C7C5 /* HIDDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDDevice.h; sourceTree = "<group>"; };
+		393701AC13FDECD800F9C7C5 /* HIDDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDDevice.m; sourceTree = "<group>"; };
+		393701C413FDEFB900F9C7C5 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		3937027C13FE60B200F9C7C5 /* heightmap.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = heightmap.tiff; sourceTree = "<group>"; };
+		39DC400113FD52E500C14003 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		39DC400713FD530500C14003 /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		39DC400813FD530500C14003 /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		39DC408B13FD685800C14003 /* Terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terrain.h; sourceTree = "<group>"; };
+		39DC408C13FD685800C14003 /* Terrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Terrain.m; sourceTree = "<group>"; };
+		39DC409113FD754900C14003 /* terrain.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = terrain.fs; sourceTree = "<group>"; };
+		39DC409213FD754900C14003 /* terrain.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = terrain.vs; sourceTree = "<group>"; };
+		39EA73D0140119AC00E7E7FA /* helicopter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helicopter.h; sourceTree = "<group>"; };
+		39EA74C514013D7600E7E7FA /* rotor.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rotor.fs; sourceTree = "<group>"; };
+		39EA74C614013D7600E7E7FA /* rotor.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rotor.vs; sourceTree = "<group>"; };
+		39F5086614329443006A0732 /* helicopter.vnt */ = {isa = PBXFileReference; lastKnownFileType = file; path = helicopter.vnt; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* HID4-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HID4-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* HID4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HID4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				39DC400213FD52E500C14003 /* OpenGL.framework in Frameworks */,
+				393701C513FDEFB900F9C7C5 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* HID4AppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* HID4AppDelegate.m */,
+				393701A913FDECD800F9C7C5 /* HIDCollection.h */,
+				393701AA13FDECD800F9C7C5 /* HIDCollection.m */,
+				393701AB13FDECD800F9C7C5 /* HIDDevice.h */,
+				393701AC13FDECD800F9C7C5 /* HIDDevice.m */,
+				39DC400713FD530500C14003 /* MyOpenGLView.h */,
+				39DC400813FD530500C14003 /* MyOpenGLView.m */,
+				39DC408B13FD685800C14003 /* Terrain.h */,
+				39DC408C13FD685800C14003 /* Terrain.m */,
+				393701A613FDEB8F00F9C7C5 /* Player.h */,
+				393701A713FDEB8F00F9C7C5 /* Player.m */,
+				3929232413FE8CF700ED2CEB /* Camera.h */,
+				3929232513FE8CF700ED2CEB /* Camera.m */,
+				3929251F13FFEBDF00ED2CEB /* Game.h */,
+				3929252013FFEBDF00ED2CEB /* Game.m */,
+				3929262614000D0D00ED2CEB /* OGLResourceManager.h */,
+				3929262714000D0D00ED2CEB /* OGLResourceManager.m */,
+				39311A071401B26F00E89E5C /* Sky.h */,
+				39311A081401B26F00E89E5C /* Sky.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* HID4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* HID4 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = HID4;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3929233213FE8E4900ED2CEB /* geometry.h */,
+				3929233313FE8E4900ED2CEB /* geometry.c */,
+				256AC3F00F4B6AF500CF3369 /* HID4_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				39EA73D0140119AC00E7E7FA /* helicopter.h */,
+				39311A0A1401C1D600E89E5C /* glTools.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39311A3B1401CBC500E89E5C /* skydome.jpg */,
+				39311C161402774000E89E5C /* heightcolormap.png */,
+				39311A1A1401CAA500E89E5C /* sky.fs */,
+				39311A1B1401CAA500E89E5C /* sky.vs */,
+				39EA74C514013D7600E7E7FA /* rotor.fs */,
+				39EA74C614013D7600E7E7FA /* rotor.vs */,
+				39DC409113FD754900C14003 /* terrain.fs */,
+				39DC409213FD754900C14003 /* terrain.vs */,
+				39F5086614329443006A0732 /* helicopter.vnt */,
+				39260F4D140077DA00C0FC5C /* helicopter.fs */,
+				39260F4E140077DA00C0FC5C /* helicopter.vs */,
+				3937027C13FE60B200F9C7C5 /* heightmap.tiff */,
+				8D1107310486CEB800E47090 /* HID4-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				39DC400113FD52E500C14003 /* OpenGL.framework */,
+				393701C413FDEFB900F9C7C5 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* HID4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "HID4" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HID4;
+			productInstallPath = "$(HOME)/Applications";
+			productName = HID4;
+			productReference = 8D1107320486CEB800E47090 /* HID4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HID4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* HID4 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* HID4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				39DC409313FD754900C14003 /* terrain.fs in Resources */,
+				39DC409413FD754900C14003 /* terrain.vs in Resources */,
+				3937027D13FE60B200F9C7C5 /* heightmap.tiff in Resources */,
+				39260F4F140077DA00C0FC5C /* helicopter.fs in Resources */,
+				39260F50140077DA00C0FC5C /* helicopter.vs in Resources */,
+				39EA74C714013D7600E7E7FA /* rotor.fs in Resources */,
+				39EA74C814013D7600E7E7FA /* rotor.vs in Resources */,
+				39311A1C1401CAA500E89E5C /* sky.fs in Resources */,
+				39311A1D1401CAA500E89E5C /* sky.vs in Resources */,
+				39311A3C1401CBC500E89E5C /* skydome.jpg in Resources */,
+				39311C171402774000E89E5C /* heightcolormap.png in Resources */,
+				39F5086714329443006A0732 /* helicopter.vnt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* HID4AppDelegate.m in Sources */,
+				39DC400913FD530500C14003 /* MyOpenGLView.m in Sources */,
+				39DC408D13FD685800C14003 /* Terrain.m in Sources */,
+				393701A813FDEB8F00F9C7C5 /* Player.m in Sources */,
+				393701AD13FDECD800F9C7C5 /* HIDCollection.m in Sources */,
+				393701AE13FDECD800F9C7C5 /* HIDDevice.m in Sources */,
+				3929232613FE8CF700ED2CEB /* Camera.m in Sources */,
+				3929233413FE8E4900ED2CEB /* geometry.c in Sources */,
+				3929252113FFEBDF00ED2CEB /* Game.m in Sources */,
+				3929262814000D0D00ED2CEB /* OGLResourceManager.m in Sources */,
+				39311A091401B26F00E89E5C /* Sky.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HID4_Prefix.pch;
+				INFOPLIST_FILE = "HID4-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = HID4;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HID4_Prefix.pch;
+				INFOPLIST_FILE = "HID4-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = HID4;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "HID4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HID4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,20 @@
+Hinweise zu den Demos
+---------------------
+
+Die Demoprojekte HID1 bis HID4 entsprechen den im Vortrag vorgeführten Programmen:
+
+HID1: Auflisten aller verfügbaren HID-Geräte
+HID2: Hot Plugging von Joysticks (und vielen Gamepads)
+HID3: Werte von Gamepads auslesen
+HID4: Wie HID3, nur mit einem rudimentären Spiel als Ausgabe
+
+Das Projekt HID5 wurde im Vortrag aus Zeitgründen nicht mehr behandelt - es gibt trotzdem Folien dazu (ganz am Ende). Es zeigt das Auslesen von Werten direkt über Event Reports. Bei Geräten mit einem nicht-konformen HID Report Descriptor lassen sich so weitere Eigenschaften auslesen. Dieses Beispiel benötigt einen Playstation Dual Shock 3 Controller und zeigt Werte der eingebauten Lagesensoren (MEMS, Gyro) und die drucksensitiven Werte der Knöpfe.
+
+Im Vortrag wurden Controller von Logitech (Logitech Dual Action per USB) und Sony (Playstation Dual Shock 3 Controller per Bluetooth) verwendet. Für andere Controller könnten Anpassungen notwendig werden. Um den Playstation-Controller über Bluetooth zu verwenden, muss zuvor ein Pairing am Mac durchgeführt werden, indem man den Controller per USB-Kabel verbindet, Bluetooth am Mac einschaltet, auf "sichtbar" setzt, die Playstation-Taste drückt und etwas wartet (gegebenenfalls wiederholen, irgendwann klappt es). 
+
+
+Nutzung
+-------
+
+Der Code wird ohne jegliche Gewährleistung bereit gestellt. Er ist frei nutzbar für nichtkommerzielle und persönliche Zwecke. Die HID-Teile sind lediglich Beispiele für die API und können daher auch als Basis für andere Ziele verwendet werden (obwohl es beileibe kein Produktionscode ist). Falls Ihr Grafikteile des Beispiels HID4 für kommerzielle Zwecke verwenden möchtet, kontaktiert mich bitte: krauss@multigrad.de
+

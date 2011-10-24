@@ -1,0 +1,17 @@
+ARC-Logo
+========
+
+(Folie 2)
+
+<https://devimages.apple.com.edgekey.net/technologies/ios5/images/automatic-reference-counting.png>
+
+Nutzungsrechte sind ungeklärt. Anfrage an Apple wurde gestellt (auch wegen höherer Auflösung).
+
+Drache (LLVM-Logo)
+==================
+
+(Fast alle Folien)
+
+<http://llvm.org/Logo.html>
+
+This dragon image is owned by Apple Inc. and is available for your download and use royalty-free. By downloading this image, Apple grants you, and you accept, a non-exclusive license to use this image. All right, title and interest in the image, including the copyright therein, is retained by Apple.

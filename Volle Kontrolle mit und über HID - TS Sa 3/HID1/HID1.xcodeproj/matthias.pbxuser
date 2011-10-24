@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* HID1AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 260}}";
+			sepNavSelRange = "{232, 0}";
+			sepNavVisRange = "{0, 237}";
+			sepNavWindowFrame = "{{56, 17}, {1265, 761}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* HID1AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {770, 585}}";
+			sepNavSelRange = "{1217, 0}";
+			sepNavVisRange = "{140, 1274}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 39EBA12F13F9F59800D59174 /* HID1 */;
+		activeTarget = 8D1107260486CEB800E47090 /* HID1 */;
+		codeSenseManager = 39EBA13D13F9F5B700D59174 /* Code sense */;
+		executables = (
+			39EBA12F13F9F59800D59174 /* HID1 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					592,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 335148440;
+			PBXWorkspaceStateSaveDate = 335148440;
+		};
+		perUserProjectItems = {
+			39EBA21F13FA040C00D59174 /* PBXTextBookmark */ = 39EBA21F13FA040C00D59174 /* PBXTextBookmark */;
+			39EBA22013FA040C00D59174 /* PBXTextBookmark */ = 39EBA22013FA040C00D59174 /* PBXTextBookmark */;
+			39EBA22213FA040C00D59174 /* PBXTextBookmark */ = 39EBA22213FA040C00D59174 /* PBXTextBookmark */;
+			39EBA22413FA040C00D59174 /* PBXTextBookmark */ = 39EBA22413FA040C00D59174 /* PBXTextBookmark */;
+			39EBA22513FA040C00D59174 /* PBXTextBookmark */ = 39EBA22513FA040C00D59174 /* PBXTextBookmark */;
+			39EBA22713FA040C00D59174 /* PBXTextBookmark */ = 39EBA22713FA040C00D59174 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 39EBA13C13F9F5B700D59174 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	39EBA12F13F9F59800D59174 /* HID1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HID1;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	39EBA13C13F9F5B700D59174 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	39EBA13D13F9F5B700D59174 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	39EBA21F13FA040C00D59174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* HID1AppDelegate.h */;
+		name = "HID1AppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 237;
+		vrLoc = 0;
+	};
+	39EBA22013FA040C00D59174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39EBA22113FA040C00D59174 /* IOHIDDevice.h */;
+		name = "IOHIDDevice.h: 164";
+		rLen = 34;
+		rLoc = 7134;
+		rType = 0;
+		vrLen = 1474;
+		vrLoc = 6394;
+	};
+	39EBA22113FA040C00D59174 /* IOHIDDevice.h */ = {
+		isa = PBXFileReference;
+		name = IOHIDDevice.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/hid/IOHIDDevice.h;
+		sourceTree = "<absolute>";
+	};
+	39EBA22213FA040C00D59174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39EBA22313FA040C00D59174 /* IOHIDKeys.h */;
+		name = "IOHIDKeys.h: 83";
+		rLen = 62;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 1660;
+		vrLoc = 3073;
+	};
+	39EBA22313FA040C00D59174 /* IOHIDKeys.h */ = {
+		isa = PBXFileReference;
+		name = IOHIDKeys.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/hid/IOHIDKeys.h;
+		sourceTree = "<absolute>";
+	};
+	39EBA22413FA040C00D59174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* HID1AppDelegate.m */;
+		name = "HID1AppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 1217;
+		rType = 0;
+		vrLen = 1274;
+		vrLoc = 140;
+	};
+	39EBA22513FA040C00D59174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39EBA22613FA040C00D59174 /* IOHIDUsageTables.h */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	39EBA22613FA040C00D59174 /* IOHIDUsageTables.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IOHIDUsageTables.h;
+		path = /System/Library/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/hidsystem/IOHIDUsageTables.h;
+		sourceTree = "<absolute>";
+	};
+	39EBA22713FA040C00D59174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39EBA22813FA040C00D59174 /* IOHIDUsageTables.h */;
+		name = "IOHIDUsageTables.h: 152";
+		rLen = 11;
+		rLoc = 6845;
+		rType = 0;
+		vrLen = 1961;
+		vrLoc = 5811;
+	};
+	39EBA22813FA040C00D59174 /* IOHIDUsageTables.h */ = {
+		isa = PBXFileReference;
+		name = IOHIDUsageTables.h;
+		path = /System/Library/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/hidsystem/IOHIDUsageTables.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {770, 22321}}";
+			sepNavSelRange = "{6845, 11}";
+			sepNavVisRange = "{5811, 1961}";
+		};
+	};
+	8D1107260486CEB800E47090 /* HID1 */ = {
+		activeExec = 0;
+		executables = (
+			39EBA12F13F9F59800D59174 /* HID1 */,
+		);
+	};
+}

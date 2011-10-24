@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5CACCE143A4E5B00436F47 /* NoARC.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6FA6E514385E41009556EA /* NoARC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6FA6E314385E41009556EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC6FA6E114385E41009556EA /* InfoPlist.strings */; };
+		AC6FA6E714385E41009556EA /* NoARC.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6FA6E614385E41009556EA /* NoARC.m */; };
+		AC6FA6ED14385EEF009556EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6FA6DD14385E41009556EA /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC6FA6D514385E41009556EA /* NoARC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NoARC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6FA6DD14385E41009556EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC6FA6E014385E41009556EA /* NoARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoARC-Info.plist"; sourceTree = "<group>"; };
+		AC6FA6E214385E41009556EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC6FA6E414385E41009556EA /* NoARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoARC-Prefix.pch"; sourceTree = "<group>"; };
+		AC6FA6E514385E41009556EA /* NoARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoARC.h; sourceTree = "<group>"; };
+		AC6FA6E614385E41009556EA /* NoARC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoARC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC6FA6D114385E41009556EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6FA6ED14385EEF009556EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC6FA6C914385E41009556EA = {
+			isa = PBXGroup;
+			children = (
+				AC6FA6DE14385E41009556EA /* NoARC */,
+				AC6FA6D714385E41009556EA /* Frameworks */,
+				AC6FA6D614385E41009556EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC6FA6D614385E41009556EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC6FA6D514385E41009556EA /* NoARC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC6FA6D714385E41009556EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC6FA6DD14385E41009556EA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC6FA6DE14385E41009556EA /* NoARC */ = {
+			isa = PBXGroup;
+			children = (
+				AC6FA6E514385E41009556EA /* NoARC.h */,
+				AC6FA6E614385E41009556EA /* NoARC.m */,
+				AC6FA6DF14385E41009556EA /* Supporting Files */,
+			);
+			path = NoARC;
+			sourceTree = "<group>";
+		};
+		AC6FA6DF14385E41009556EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC6FA6E014385E41009556EA /* NoARC-Info.plist */,
+				AC6FA6E114385E41009556EA /* InfoPlist.strings */,
+				AC6FA6E414385E41009556EA /* NoARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC6FA6D214385E41009556EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5CACCE143A4E5B00436F47 /* NoARC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AC6FA6D414385E41009556EA /* NoARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6FA6EA14385E41009556EA /* Build configuration list for PBXNativeTarget "NoARC" */;
+			buildPhases = (
+				AC6FA6D014385E41009556EA /* Sources */,
+				AC6FA6D114385E41009556EA /* Frameworks */,
+				AC6FA6D214385E41009556EA /* Headers */,
+				AC6FA6D314385E41009556EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoARC;
+			productName = NoARC;
+			productReference = AC6FA6D514385E41009556EA /* NoARC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC6FA6CB14385E41009556EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Carl Zeiss Meditec AG";
+			};
+			buildConfigurationList = AC6FA6CE14385E41009556EA /* Build configuration list for PBXProject "NoARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC6FA6C914385E41009556EA;
+			productRefGroup = AC6FA6D614385E41009556EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC6FA6D414385E41009556EA /* NoARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC6FA6D314385E41009556EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6FA6E314385E41009556EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC6FA6D014385E41009556EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6FA6E714385E41009556EA /* NoARC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC6FA6E114385E41009556EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC6FA6E214385E41009556EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC6FA6E814385E41009556EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC6FA6E914385E41009556EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC6FA6EB14385E41009556EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoARC/NoARC-Prefix.pch";
+				INFOPLIST_FILE = "NoARC/NoARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		AC6FA6EC14385E41009556EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoARC/NoARC-Prefix.pch";
+				INFOPLIST_FILE = "NoARC/NoARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC6FA6CE14385E41009556EA /* Build configuration list for PBXProject "NoARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6FA6E814385E41009556EA /* Debug */,
+				AC6FA6E914385E41009556EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6FA6EA14385E41009556EA /* Build configuration list for PBXNativeTarget "NoARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6FA6EB14385E41009556EA /* Debug */,
+				AC6FA6EC14385E41009556EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC6FA6CB14385E41009556EA /* Project object */;
+}
